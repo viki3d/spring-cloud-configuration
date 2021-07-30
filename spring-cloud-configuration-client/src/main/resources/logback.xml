@@ -9,6 +9,8 @@
         </layout>
     </appender>
 
+  	<logger name="com.viki3d.spring.cloud.configuration.client" level="DEBUG"/>
+
     <root level="INFO">
         <appender-ref ref="ConsoleAppender" />
     </root>
