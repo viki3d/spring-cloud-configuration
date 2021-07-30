@@ -8,9 +8,8 @@ Java, Spring, Spring Cloud, Microservices
 Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. 
 With the Config Server, you have a central place to manage external properties for applications across all environments.  
 
-As an application moves through the deployment pipeline from dev to test and in-  
-to production, you can manage the configuration between those environments and  
-be certain that applications have everything they need to run when they migrate.  
+As an application moves through the deployment pipeline from dev to test and into production, you can manage the
+configuration between those environments and be certain that applications have everything they need to run when they migrate.  
 
 The HTTP service uses resources in the following form:
   > /{application}/{profile}[/{label}]  
@@ -19,13 +18,13 @@ The HTTP service uses resources in the following form:
 where:  
 _{application}_ is set by:  
 
-| spring.config.name=... |
-| ---------------------- |
+| spring.cloud.config.name=... |
+| ---------------------------- |
 
 _{profile}_ is set by:  
 
-| spring.profiles.active=...  |
-| --------------------------- |
+| spring.cloud.config.profile=...  |
+| -------------------------------- |
 
 _{label}_ is the repository branch. The default is now _main_ but before it was
 _master_.  
