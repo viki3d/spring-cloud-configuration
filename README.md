@@ -65,9 +65,9 @@ When server is reading configuration from git repository:
 
 Enabling usage of: _bootstrap.properties_  
   > 	    <dependency>
-	        <groupId>org.springframework.cloud</groupId>
-	        <artifactId>spring-cloud-starter-bootstrap</artifactId>
-	    </dependency>	    
+  >	        <groupId>org.springframework.cloud</groupId>
+  >	        <artifactId>spring-cloud-starter-bootstrap</artifactId>
+  >	    </dependency>
 
 
 
