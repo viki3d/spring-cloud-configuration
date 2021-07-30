@@ -12,8 +12,8 @@ As an application moves through the deployment pipeline from dev to test and int
 configuration between those environments and be certain that applications have everything they need to run when they migrate.  
 
 The HTTP service uses resources in the following form:
-  > /{application}/{profile}[/{label}]  
-  > /{label}/{application}-{profile}.properties  
+  > cloud-config-server:8888/{application}/{profile}[/{label}]  
+  > cloud-config-server:8888/{label}/{application}-{profile}.properties  
 
 where:  
 _{application}_ is set by:  
