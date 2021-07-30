@@ -16,18 +16,20 @@ The HTTP service uses resources in the following form:
   > cloud-config-server:8888/{label}/{application}-{profile}.properties  
 
 where:  
-_{application}_ is set by:  
+_{application}_ is set by cloud-config-client in bootstrap.properties:  
 
 | spring.cloud.config.name=... |
 | ---------------------------- |
 
-_{profile}_ is set by:  
+_{profile}_ is set by cloud-config-client in bootstrap.properties:  
 
 | spring.cloud.config.profile=...  |
 | -------------------------------- |
 
-_{label}_ is the repository branch. The default is now _main_ but before it was
-_master_.  
+_{label}_ is the repository branch. The default is now _main_ but before it was _master_. It is set by cloud-config-server in application.properties:  
+
+| spring.cloud.config.server.git.default-label=main |
+| ------------------------------------------------- |
 
 ### spring-cloud-configuration-server
 
