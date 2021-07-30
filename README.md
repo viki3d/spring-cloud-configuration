@@ -28,8 +28,8 @@ _{profile}_ is set by cloud-config-client in bootstrap.properties:
 
 _{label}_ is the repository branch. The default is now _main_ but before it was _master_. It is set by cloud-config-server in application.properties:  
 
-| spring.cloud.config.server.git.default-label=main |
-| ------------------------------------------------- |
+| spring.cloud.config.server.git.default-label=... |
+| ------------------------------------------------ |
 
 ### spring-cloud-configuration-server
 
