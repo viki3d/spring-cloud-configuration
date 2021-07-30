@@ -64,10 +64,12 @@ When server is reading configuration from git repository:
   > myprop1 = myval1-gitrepo-property
 
 Enabling usage of: _bootstrap.properties_  
-  > 	    <dependency>
-  >	        <groupId>org.springframework.cloud</groupId>
-  >	        <artifactId>spring-cloud-starter-bootstrap</artifactId>
-  >	    </dependency>
+  >  
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+
 
 
 
