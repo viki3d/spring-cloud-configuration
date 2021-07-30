@@ -5,10 +5,8 @@ Java, Spring, Spring Cloud, Microservices
 
 ### spring-cloud-config
 
-Spring Cloud Config provides server-side and client-side support for externali-  
-zed configuration in a distributed system. With the Config Server, you have a  
-central place to manage external properties for applications across all environ-  
-ments.  
+Spring Cloud Config provides server-side and client-side support for externalized configuration in a distributed system. 
+With the Config Server, you have a central place to manage external properties for applications across all environments.  
 
 As an application moves through the deployment pipeline from dev to test and in-  
 to production, you can manage the configuration between those environments and  
