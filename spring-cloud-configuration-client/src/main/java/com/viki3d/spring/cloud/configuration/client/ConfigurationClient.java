@@ -56,9 +56,9 @@ public class ConfigurationClient {
 
     // Will read either 'myval1-file-property' or 'myval1-gitrepo-property' (depends on server cfg):
     String myPropertyValue = env.getProperty(myPropertyName);
-    logger.debug("Reading property '" + myPropertyName + "' = " + myPropertyValue);
-    logger.debug("Reading property 'spring.application.name' = " 
-        + env.getProperty("spring.application.name"));
+    logger.debug("Reading property '{}' = {}", myPropertyName, myPropertyValue);
+    logger.debug("Reading property 'spring.application.name' = {}", 
+        env.getProperty("spring.application.name"));
 
     return myPropertyName + " = " + myPropertyValue;
   }
